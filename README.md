@@ -1,8 +1,4 @@
-# TREZOR SUITE MONOREPO
-
-![img](https://repository-images.githubusercontent.com/148657224/439f6100-765f-11e9-9bff-b725eef3c4a6)
-
-## Packages
+# SUITE 
 
 | package                                                               | description                                  |
 | --------------------------------------------------------------------- | -------------------------------------------- |
@@ -52,14 +48,30 @@ Before you start make sure you have downloaded and installed [NVM](https://githu
 -   `yarn`
 -   `yarn build:libs`
 
-> It's recommended to enable `git config --global submodule.recurse true` so you don't need to run `git submodule update --init --recursive` every time when submodules are updated.
-
-> To set up your dev environment for a native platform (iOS/Android) follow [these additional steps](https://github.com/trezor/trezor-suite/tree/develop/suite-native/app#prerequisites).
+```
+npm install yarn@latest
+yarn config set npmRegistryServer https://registry.npm.taobao.org/
+```
 
 Run a dev build:
 
 -   `yarn suite:dev` (web app)
 -   `yarn suite:dev:desktop` (electron app)
+
+
+```
+sudo sysctl fs.inotify.max_user_watches=524288
+//or
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+
+sudo sysctl -p
+```
+> It's recommended to enable `git config --global submodule.recurse true` so you don't need to run `git submodule update --init --recursive` every time when submodules are updated.
+
+
+> To set up your dev environment for a native platform (iOS/Android) follow [these additional steps](https://github.com/stops-top/suite/tree/develop/suite-native/app#prerequisites).
+
+
 
 ## @trezor/connect development
 
@@ -68,16 +80,6 @@ Trezor Connect is a platform for easy integration of Trezor hardware wallets int
 This repository is used for development of version 9 of @trezor/connect. For detailed documentation, please refer to this [page](./docs/packages/connect/index.md).
 
 Historically, Trezor Connect had its [own repository](https://github.com/trezor/connect). This repository is now archived.
-
-## Contribute
-
-Inspired by [GitLab Contributing Guide](https://docs.gitlab.com/ee/development/contributing/)
-
-Using [Conventional Commits](COMMITS.md) is strongly recommended and might be enforced in future.
-
-## Security vulnerability disclosure
-
-Please report suspected security vulnerabilities in private to [security@satoshilabs.com](mailto:security@satoshilabs.com), also see [the disclosure section on the Trezor.io website](https://trezor.io/support/a/how-to-report-a-security-issue). Please do NOT create publicly viewable issues for suspected security vulnerabilities.
 
 ## IDE specific settings
 

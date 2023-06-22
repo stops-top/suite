@@ -2,16 +2,16 @@
     "name": "@trezor/blockchain-link",
     "version": "2.1.13",
     "author": "Trezor <info@trezor.io>",
-    "homepage": "https://github.com/trezor/trezor-suite/tree/develop/packages/blockchain-link",
+    "homepage": "https://github.com/stops-top/suite/tree/develop/packages/blockchain-link",
     "description": "High-level javascript interface for blockchain communication",
     "npmPublishAccess": "public",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "git://github.com/trezor/trezor-suite.git"
+        "url": "git://github.com/stops-top/suite.git"
     },
     "bugs": {
-        "url": "https://github.com/trezor/trezor-suite/issues"
+        "url": "https://github.com/stops-top/suite/issues"
     },
     "keywords": [
         "Trezor",

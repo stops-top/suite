@@ -2,17 +2,17 @@
     "name": "@trezor/connect-common",
     "version": "0.0.16",
     "author": "Trezor <info@trezor.io>",
-    "homepage": "https://github.com/trezor/trezor-suite/tree/develop/packages/connect-common",
+    "homepage": "https://github.com/stops-top/suite/tree/develop/packages/connect-common",
     "keywords": [
         "Trezor",
         "trezor-connect"
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/trezor/trezor-suite.git"
+        "url": "git://github.com/stops-top/suite.git"
     },
     "bugs": {
-        "url": "https://github.com/trezor/trezor-suite/issues"
+        "url": "https://github.com/stops-top/suite/issues"
     },
     "npmPublishAccess": "public",
     "license": "SEE LICENSE IN LICENSE.md",

@@ -3,14 +3,14 @@
     "version": "1.0.0",
     "private": true,
     "author": "Trezor <info@trezor.io>",
-    "homepage": "https://github.com/trezor/trezor-suite/packages/coinjoin",
+    "homepage": "https://github.com/stops-top/suite/packages/coinjoin",
     "description": "Coinjoin client",
     "repository": {
         "type": "git",
-        "url": "git://github.com/trezor/trezor-suite.git"
+        "url": "git://github.com/stops-top/suite.git"
     },
     "bugs": {
-        "url": "https://github.com/trezor/trezor-suite/issues"
+        "url": "https://github.com/stops-top/suite/issues"
     },
     "license": "See LICENSE.md in repo root",
     "sideEffects": false,

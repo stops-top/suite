@@ -32,7 +32,7 @@ export const buildOverview = ({ emuScreenshots }: { emuScreenshots: Record<strin
             <div id="${url}">
                 <h1>${url}</h1>
                 <div>
-                    <a href="https://github.com/trezor/trezor-suite/blob/develop/docs/packages/connect/methods/${methodName}.md">documentation</a>
+                    <a href="https://github.com/stops-top/suite/blob/develop/docs/packages/connect/methods/${methodName}.md">documentation</a>
                     |
                     <a href="${process.env.URL}#/method/${url}">explorer</a>
                 </div>

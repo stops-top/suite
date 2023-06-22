@@ -6,10 +6,10 @@
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "git://github.com/trezor/trezor-suite.git"
+        "url": "git://github.com/stops-top/suite.git"
     },
     "bugs": {
-        "url": "https://github.com/trezor/trezor-suite/issues"
+        "url": "https://github.com/stops-top/suite/issues"
     },
     "keywords": [
         "Trezor",

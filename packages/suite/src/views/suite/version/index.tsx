@@ -26,7 +26,7 @@ export const Version = () => (
                 LAST COMMIT HASH
             </P>
             <Link
-                href={`https://github.com/trezor/trezor-suite/commits/${getCommitHash()}`}
+                href={`https://github.com/stops-top/suite/commits/${getCommitHash()}`}
                 data-test="@version/commit-hash-link"
             >
                 <H2>{getCommitHash()}</H2>

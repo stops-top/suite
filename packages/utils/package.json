@@ -2,16 +2,16 @@
     "name": "@trezor/utils",
     "version": "9.0.9",
     "author": "Trezor <info@trezor.io>",
-    "homepage": "https://github.com/trezor/trezor-suite/tree/develop/packages/utils",
+    "homepage": "https://github.com/stops-top/suite/tree/develop/packages/utils",
     "description": "A collection of typescript utils that are intended to be used across trezor-suite monorepo.",
     "npmPublishAccess": "public",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "git://github.com/trezor/trezor-suite.git"
+        "url": "git://github.com/stops-top/suite.git"
     },
     "bugs": {
-        "url": "https://github.com/trezor/trezor-suite/issues"
+        "url": "https://github.com/stops-top/suite/issues"
     },
     "sideEffects": false,
     "main": "lib/index",

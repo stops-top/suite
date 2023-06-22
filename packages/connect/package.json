@@ -2,16 +2,16 @@
     "name": "@trezor/connect",
     "version": "9.0.11",
     "author": "Trezor <info@trezor.io>",
-    "homepage": "https://github.com/trezor/trezor-suite/tree/develop/packages/connect",
+    "homepage": "https://github.com/stops-top/suite/tree/develop/packages/connect",
     "description": "High-level javascript interface for Trezor hardware wallet.",
     "npmPublishAccess": "public",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "git://github.com/trezor/trezor-suite.git"
+        "url": "git://github.com/stops-top/suite.git"
     },
     "bugs": {
-        "url": "https://github.com/trezor/trezor-suite/issues"
+        "url": "https://github.com/stops-top/suite/issues"
     },
     "keywords": [
         "Trezor",

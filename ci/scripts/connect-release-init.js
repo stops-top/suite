@@ -147,7 +147,7 @@ const initConnectRelease = () => {
 
     const prNumber = ghPrCreateResult.stdout
         .replaceAll('\n', '')
-        .replace('https://github.com/trezor/trezor-suite/pull/', '');
+        .replace('https://github.com/stops-top/suite/pull/', '');
 
     if (errors.length) {
         comment({

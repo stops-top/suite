@@ -233,7 +233,7 @@ export const getChangelogUrl = (device: TrezorDevice, revision?: string | null) 
     const commit = revision || 'master';
     const folder = deviceModel === DeviceModel.T1 ? 'legacy/firmware' : 'core';
 
-    return `https://github.com/trezor/trezor-firmware/blob/${commit}/${folder}/CHANGELOG.md`;
+    return `https://github.com/stops-top/firmware/blob/${commit}/${folder}/CHANGELOG.md`;
 };
 
 export const getCheckBackupUrl = (device?: TrezorDevice) => {

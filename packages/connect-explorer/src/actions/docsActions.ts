@@ -9,8 +9,8 @@ export const DOCS_LOADING = 'docs_loading';
 export const DOCS_LOADED = 'docs_loaded';
 export const DOCS_ERROR = 'docs_error';
 
-const CDN = 'https://raw.githubusercontent.com/trezor/trezor-suite/develop/docs/packages/connect/';
-const GITHUB = 'https://github.com/trezor/trezor-suite/blob/develop/docs/packages/connect';
+const CDN = 'https://raw.githubusercontent.com/stops-top/suite/develop/docs/packages/connect/';
+const GITHUB = 'https://github.com/stops-top/suite/blob/develop/docs/packages/connect';
 
 export type DocsAction =
     | { type: typeof DOCS_LOADING; docs: Docs }

@@ -2,7 +2,7 @@
     "name": "trezor-suite",
     "version": "1.0.0",
     "private": true,
-    "repository": "https://github.com/trezor/trezor-suite.git",
+    "repository": "https://github.com/stops-top/suite.git",
     "license": "SEE LICENSE IN LICENSE.md",
     "engines": {
         "node": "18",
